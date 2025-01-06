@@ -2,11 +2,17 @@
 This project implements a Conversational AI Interface using Retrieval-Augmented Generation (RAG) to answer VAT-related questions based on NBR Bahrain's VAT Guide.
 
 ## Features
-- Retrieves information from the VAT Guide.
-- Generates accurate answers with source references.
-- Simple and user-friendly web interface.
+- **Text Extraction**: Extracts text from a PDF VAT Guide document.
+- **Data Storage**: Stores the extracted text as embeddings in a vector database using ChromaDB.
+- **Conversational Interface**: Users can ask VAT-related questions and receive relevant answers based on the VAT guide.
+- **Streamlit Web Interface**: Simple and professional web interface to interact with the AI.
 
-## How to Run
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the app: `streamlit run src/app.py`
+## Tech Stack
+- **Python**: The backend programming language used for processing the data and running the AI.
+- **OpenAI API**: Powers the conversational AI for question answering.
+- **Streamlit**: A framework for building the web interface.
+- **ChromaDB**: A vector database used for storing and retrieving VAT-related content.
+- **PDFMiner**: Used for extracting text from the VAT Guide PDF.
+- **Langchain**: Framework for building the RAG pipeline.
+
 # vat_conversational_ai_rag
