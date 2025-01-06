@@ -1,6 +1,12 @@
 # VAT Conversational AI
 This project implements a Conversational AI Interface using Retrieval-Augmented Generation (RAG) to answer VAT-related questions based on NBR Bahrain's VAT Guide.
 
+## Live Demo
+
+You can access the live version of the app here:
+
+[**VAT Conversational AI - Live Demo**]
+
 ## Features
 - **Text Extraction**: Extracts text from a PDF VAT Guide document.
 - **Data Storage**: Stores the extracted text as embeddings in a vector database using ChromaDB.
