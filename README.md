@@ -5,7 +5,8 @@ This project implements a Conversational AI Interface using Retrieval-Augmented 
 
 You can access the live version of the app here:
 
-[**VAT Conversational AI - Live Demo**]
+[**VAT Conversational AI - Live Demo**] 
+(https://vatconversationalairag-gcoudu7o7ihebdhuebcekg.streamlit.app/)
 
 ## Features
 - **Text Extraction**: Extracts text from a PDF VAT Guide document.
